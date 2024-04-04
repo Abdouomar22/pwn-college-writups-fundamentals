@@ -111,10 +111,8 @@ In [6]: if exit_status == 0 :
 $ ipython
 In [1]: import subprocess
 
-In [2]: command = 'env -i LC_CTYPE=write_something  /challenge/embryoio_level21'
+In [2]: command = 'env'
 
-In [3]: command = 'env'
-
-In [4]: subprocess.call([command,'-i','LC_CTYPE=write_something','/challenge/embryoio_level21'])
+In [3]: subprocess.call([command,'-i','LC_CTYPE=write_something','/challenge/embryoio_level21'])
 
 
