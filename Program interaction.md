@@ -54,14 +54,14 @@ import subprocess
 
 binary_file_path = './binary_file'
 
-exit_status = subprocess.call(binary_file_path)
+subprocess.call(binary_file_path)
 # Level 16
 $ ipython
 In [1]: import subprocess
 
 In [7]: binary = './embryoio_level16'
 
-In [8]: exit_status = subprocess.call(binary)
+In [8]: subprocess.call(binary)
 
 # Level 17 
 
@@ -71,7 +71,7 @@ In [1]: import subprocess
 
 In [2]: command = '/challenge/embryoio_level17'
 
-In [3]: exit_status = subprocess.call([command,'dhxxfmtjpf'])
+In [3]: subprocess.call([command,'dhxxfmtjpf'])
 
 # Level 18
 $ export zdfuhr=rrxxbtnuky
@@ -80,10 +80,10 @@ In [1]: import subprocess
 
 In [7]: binary = './embryoio_level18'
 
-In [8]: exit_status = subprocess.call(binary)
+In [8]:  subprocess.call(binary)
 
 # Level 19
-hacker@program-interaction~level19:~$ cat >> /tmp/eaofyu
+$ cat >> /tmp/eaofyu
 pbfciiku
 ^C
 $ ipython
@@ -91,7 +91,7 @@ In [1]: import subprocess
 
 In [2]: command = '/challenge/embryoio_level19'
 
-In [3]: exit_status = subprocess.call([command],stdin=open('/tmp/eaofyu','r'))
+In [3]: subprocess.call([command],stdin=open('/tmp/eaofyu','r'))
 
 # Level 20
 
@@ -106,4 +106,15 @@ In [3]: exit_status = subprocess.call([command],stdout=open("/tmp/iwylnx","w"))
 In [6]: if exit_status == 0 :
    ...:     flag = open("/tmp/iwylnx").read()
    ...:     print(flag)
+
+# Level 21
+$ ipython
+In [1]: import subprocess
+
+In [2]: command = 'env -i LC_CTYPE=write_something  /challenge/embryoio_level21'
+
+In [3]: command = 'env'
+
+In [4]: subprocess.call([command,'-i','LC_CTYPE=write_something','/challenge/embryoio_level21'])
+
 
