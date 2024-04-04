@@ -6,7 +6,7 @@ and enter this input : uirxryfv
 # Level 3
 $ /challenge/embryoio_level3 suvobmbtle
 # Level 4
-$ $ export jqtuxe=rhdidouonf
+$ export jqtuxe=rhdidouonf
 $ /challenge/embryoio_level4
 # Level 5
 $ cat >> /tmp/qroizj
