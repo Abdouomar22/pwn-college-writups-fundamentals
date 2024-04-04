@@ -93,3 +93,17 @@ In [2]: command = '/challenge/embryoio_level19'
 
 In [3]: exit_status = subprocess.call([command],stdin=open('/tmp/eaofyu','r'))
 
+# Level 20
+
+$ ipython
+
+In [1]: import subprocess
+
+In [2]: command = '/challenge/embryoio_level20'
+
+In [3]: exit_status = subprocess.call([command],stdout=open("/tmp/iwylnx","w"))
+
+In [6]: if exit_status == 0 :
+   ...:     flag = open("/tmp/iwylnx").read()
+   ...:     print(flag)
+
