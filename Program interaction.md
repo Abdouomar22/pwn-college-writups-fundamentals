@@ -64,7 +64,9 @@ In [7]: binary = './embryoio_level16'
 In [8]: exit_status = subprocess.call(binary)
 
 # Level 17 
+
 $ ipython
+
 In [1]: import subprocess
 
 In [2]: command = '/challenge/embryoio_level17'
