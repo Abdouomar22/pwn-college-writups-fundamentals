@@ -11,7 +11,7 @@ int pwncollege() {
         exit(EXIT_FAILURE);
     } else if (pid == 0) {
         // Child process
-        char *binaryPath = "/challenge/embryoio_level29";
+        char *binaryPath = "/challenge/embryoio_level29"; // dont forget to change the level to 30
         char *args[] = {NULL}; // Replace with your binary's arguments
 
         // Execute the binary program in the child process
