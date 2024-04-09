@@ -14,3 +14,7 @@ $ ./solve.sh | rev | rev
 # Level 46
 
 $ cat | ./solve.sh
+
+# Level 47
+
+$ rev | ./solve.sh
