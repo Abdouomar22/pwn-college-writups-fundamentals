@@ -154,5 +154,24 @@ In [1]: import subprocess
    
    ...: r , o = process2.communicate()
    
-   (dont forget to press ctrl+D after enter the input )
+   (dont forget to press ctrl+D after enter the input 
 
+   # Level 54
+
+   $ python solve.py | cat
+
+   # Level 55
+
+   $ python flag.py | grep pwn
+
+   # Level 56
+
+   $ python flag.py | sed "/pwn/p"
+
+   # Level 57
+   
+   $ python flag.py | rev | rev
+
+   # Level 58
+
+   $ cat | python flag.py
