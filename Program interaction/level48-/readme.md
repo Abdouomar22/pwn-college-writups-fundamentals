@@ -21,6 +21,7 @@ In [1]: import subprocess
    ...: 
 
 # Level 50
+
 $ ipython
 
 In [4]: import subprocess
@@ -36,6 +37,7 @@ In [4]: import subprocess
    ...: process2 = subprocess.Popen(command2, stdin=process1.stdout)
 
 # Level 51
+
 In [2]: import subprocess
    ...: 
    ...: # Command to execute
@@ -51,6 +53,7 @@ In [2]: import subprocess
    ...: 
    ...: #r , o = process2.communicate()
    ...: process3 =  subprocess.Popen(command3, stdin=process2.stdout)
+
 # Level 52
 
 In [2]: import subprocess
@@ -67,7 +70,7 @@ In [2]: import subprocess
    ...: 
    ...: r , o = process2.communicate()
 
- # Level 53
+# Level 53
 
 In [1]: import subprocess
    ...: 
@@ -83,5 +86,3 @@ In [1]: import subprocess
    ...: 
    ...: r , o = process2.communicate()
    (dont forget to press ctrl+D after enter the input )
- 
-
