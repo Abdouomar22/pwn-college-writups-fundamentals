@@ -1,4 +1,4 @@
-Level 48
+# Level 48
 
 
 
@@ -6,7 +6,7 @@ $ ipython solve.py | cat
 
 
 
-Level 49
+# Level 49
 
 
 
@@ -34,8 +34,8 @@ In [1]: import subprocess
    ...:
 
 
-
-Level 50
+ 
+# Level 50
 
 
 
@@ -64,7 +64,7 @@ In [4]: import subprocess
 
 
 
-Level 51
+# Level 51
 
 
 
@@ -97,7 +97,7 @@ In [2]: import subprocess
 
 
 
-Level 52
+# Level 52
 
 
 
@@ -129,7 +129,7 @@ In [2]: import subprocess
 
 
 
-Level 53
+# Level 53
 
 
 
