@@ -28,7 +28,7 @@ $ printf "solve:\n\tcat /flag" > tmp.makefile
 $ nice -n 1 cat /flag 
 $timeout — utility that runs a specified command and terminates it if it is still running after a given period of time. — can read files when the command is given — timeout 5 [command] [file]  
 $ stdbuf — Run a command with modified I/O stream buffering — can read files by stdbuf -oL [command]  
-$ setrch — change reported architecture in new program environment or set personality flags — files can be read by setarch --addr-no-randomize [command]
+$ setarch — change reported architecture in new program environment or set personality flags — files can be read by setarch --addr-no-randomize [command]
 $ watch -x -b cat /flag 
 $ socat -u file:/flag - (- means that print the content to stdout)
 # Level 33-36
